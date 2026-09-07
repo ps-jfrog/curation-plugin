@@ -6,6 +6,7 @@ not-inspected, dry-run) as a CSV file.
 ## Prerequisites
 
 - [JFrog CLI](https://jfrog.com/getcli/) installed (`jf --version` to check).
+- [Go 1.14 or later](https://go.dev/dl/) installed (only needed to build the plugin, `go version` to check).
 - A configured JFrog Platform server with Xray access:
   ```
   jf config add my-server
@@ -13,7 +14,6 @@ not-inspected, dry-run) as a CSV file.
   jf rt ping
   ```
   `jf rt ping` should print `OK`, confirming the server is reachable.
-- [Go](https://go.dev/dl/) installed (only needed to build the plugin, `go version` to check).
 
 ## Build
 
