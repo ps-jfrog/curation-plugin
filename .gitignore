@@ -1,0 +1,10 @@
+# Built binary
+/curation-plugin
+
+# Generated CSV output (any filename, including custom --output paths)
+*.csv
+
+# OS / editor clutter
+.DS_Store
+.idea/
+.vscode/
